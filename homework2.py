@@ -69,7 +69,7 @@ print("a number from Pascal's triangle", pascal(6, 3))
 
 def is_even(num):
     '''this function checks if the number is even'''
-    if num%2==0:
+    if num % 2 == 0:
         return True
     return False
 
@@ -102,7 +102,7 @@ print("power", fast_pow(3,4))
 
 def double(num):
     '''this function returns doubled the number'''
-    return num*2
+    return num * 2
 
 def fast_mul(num1, num2):
     '''this function returns num1 multiplied by num2'''
